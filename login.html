@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+</head>
+<body>
+    <h2>Login</h2>
+    <form action="/process_login" method="get">
+        <label for="name">Nome:</label>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="institution">Instituição de Ensino:</label>
+        <input type="text" id="institution" name="institution" required><br><br>
+
+        <label for="subject">Matéria de Ensino:</label><br>
+        <input type="radio" id="dwa4" name="subject" value="DWA4" required>
+        <label for="dwa4">DWA4</label><br>
+        <input type="radio" id="dwa5" name="subject" value="DWA5" required>
+        <label for="dwa5">DWA5</label><br><br>
+
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
